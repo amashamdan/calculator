@@ -1,7 +1,9 @@
-var operation;
-var number1;
-var secondNumber = false;
 $(document).ready(function(){
+	var operation;
+	var number1;
+	var secondNumber = false;
+	$(".output").html(0);
+	
 	$(".number").click(function() {
 		if (secondNumber == false){
 			if ($(".output").html() !== "0"){
