@@ -9,7 +9,7 @@ body {
 }
 
 .calculator {
-	width: 200px;
+	width: 238px;
 	background-color: #bebebe;
 	padding: 30px;
 	border-radius: 40px;
@@ -34,7 +34,7 @@ body {
 
 .button {
 	width: 23%;
-	height: 32px;
+	height: 35px;
 	margin-top: 5px;
 	font-weight: bold;
 	font-size: 1.1em;
