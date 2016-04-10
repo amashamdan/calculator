@@ -39,7 +39,7 @@ body {
 	font-weight: bold;
 	font-size: 1.1em;
 	background-color: #454545;
-	border: 1px groove #454545;
+	border: none;
 	color: white;
 	border-radius: 10px;
 	outline: none;
@@ -53,7 +53,6 @@ body {
 .backspace {
 	background-color: #EE3B3B;
 	color: white;
-	border: 1px groove #EE3B3B;
 }
 
 .footer {
