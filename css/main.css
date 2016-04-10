@@ -1,0 +1,74 @@
+body {
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+}
+
+.container {
+	width: 210px;
+	margin: 0 auto;
+}
+
+.calculator {
+	width: 200px;
+	background-color: #bebebe;
+	padding: 30px;
+	border-radius: 40px;
+}
+
+.output {
+	background-color: white;
+	margin: 7px;
+	height: 25px;
+	padding: 5px;
+	text-align: right;
+	font-size: 1.2em;
+}
+
+.buttons {
+	text-align: center;
+}
+
+.buttons button {
+	font-family: 'Raleway', sans-serif;
+}
+
+.button {
+	width: 23%;
+	height: 32px;
+	margin-top: 5px;
+	font-weight: bold;
+	font-size: 1.1em;
+	background-color: #454545;
+	border: 1px groove #454545;
+	color: white;
+	border-radius: 10px;
+	outline: none;
+}
+
+.button:hover {
+	cursor: pointer;
+}
+
+.clear-all,
+.backspace {
+	background-color: #EE3B3B;
+	color: white;
+	border: 1px groove #EE3B3B;
+}
+
+.footer {
+	margin-top: 50px;
+}
+
+.author {
+	font-size: 0.8em;
+	color: gray;
+}
+
+.author p {
+	margin: 2px;	
+}
+
+.author a {
+	color: gray;
+}
