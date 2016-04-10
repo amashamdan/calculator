@@ -50,7 +50,7 @@ body {
 }
 
 .clear-all,
-.backspace {
+.clear {
 	background-color: #EE3B3B;
 	color: white;
 }
