@@ -61,6 +61,13 @@ $(document).ready(function(){
 	$(".equal").click(function() {
 		getResult(operations[operations.length - 1]);
 	})
+
+	$(".sign").click(function() {
+		$(".output").html(Number($(".output").html()) * (-1));
+		if (equalHit) {
+			number1 = Number($(".output").html());
+		}
+	})
 })
 
 function getResult(operation) {
