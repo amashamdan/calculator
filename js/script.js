@@ -139,6 +139,22 @@ $(document).ready(function(){
 			number1 = Number($(".output").html());
 		}	
 	})
+
+	/* The decimal button adds a decimal point to the number being entered. */
+	$(".decimal").click(function() {
+		/* If the decimal is pressed after when a new operand is about to be entered,
+		It is inserted with a preceeding 0. */
+		if (secondNumber) {
+			$(".output").html("0.");
+			/* Once the decimal point is inserted, the secondNumber is set back to 
+			false to continue entering the number. */
+			secondNumber = false;
+		} else {
+			/* If the decimal is pressed when secondNumber is false, the decimal is
+			inserted and nothing else is done. */
+			$(".output").html($(".output").html() + ".");
+		}
+	})
 })
 
 /* This function obtains the result corresponding to the called operation. */
