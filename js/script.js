@@ -59,7 +59,7 @@ $(document).ready(function(){
 	})
 
 	$(".equal").click(function() {
-		getResult(operations[1]);
+		getResult(operations[operations.length - 1]);
 	})
 })
 
